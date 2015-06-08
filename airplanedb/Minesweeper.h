@@ -52,6 +52,7 @@ namespace airplanedb {
 		Cell^ Calculate(Int32 x, Int32 y, Cell^ res, Int32 depth){
 			res->state = CellState::Opened;
 			res->flagged = false;
+			++score;
 			Cell^ tmpCell;
 			for(Int32 i = -1; i <= 1; ++i){
 				for(Int32 j = -1; j <= 1; ++j){
@@ -110,7 +111,6 @@ namespace airplanedb {
 					Calculate(x, y, res, 0);
 					break;
 			}
-			++score;
 			return res;
 		}
 		//открыть ячейки вокруг данной, если все мины вокруг неё помечены
