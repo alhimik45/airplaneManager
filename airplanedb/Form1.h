@@ -400,8 +400,12 @@ namespace airplanedb {
 		//загрузка файла с данными
 		private: System::Void menuOpenButton_Click(System::Object^  sender, System::EventArgs^  e) {
 			if(openDBFileDialog->ShowDialog() == ::System::Windows::Forms::DialogResult::OK){
-				flights = gcnew FlightStorage(openDBFileDialog->FileName);
-				listFlights();
+				try{
+					flights = gcnew FlightStorage(openDBFileDialog->FileName);
+					listFlights();
+				}catch(Exception^ e){
+					MessageBox::Show(L"Файл поврежден");
+				}
 			}
 		}
 		//добавление записи
