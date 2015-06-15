@@ -1,6 +1,6 @@
 #pragma once
 
-namespace airplanedb {
+namespace airplaneManager {
 	using namespace System::Collections::Generic;
 	//состояния ячейки поля
 	public enum class CellState { Undefined, NotCalculated, Opened, Mined };

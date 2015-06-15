@@ -1,6 +1,6 @@
 #pragma once
 
-namespace airplanedb {
+namespace airplaneManager {
 	using namespace System;
 
 	// ласс представл€ющий запись об одном рейсе

@@ -2,7 +2,7 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9,00"
-	Name="airplanedb"
+	Name="airplaneManager"
 	ProjectGUID="{4E55766E-ADD0-4512-A753-E85F0A733A6A}"
 	RootNamespace="airplanedb"
 	Keyword="ManagedCProj"
@@ -196,7 +196,7 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\airplanedb.cpp"
+				RelativePath=".\airplaneManager.cpp"
 				>
 			</File>
 			<File

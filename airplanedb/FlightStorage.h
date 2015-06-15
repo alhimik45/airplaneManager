@@ -2,7 +2,7 @@
 
 #include "Flight.h"
 
-namespace airplanedb {
+namespace airplaneManager {
 	using namespace System;
 	using namespace System::IO;
 	using namespace System::Collections;

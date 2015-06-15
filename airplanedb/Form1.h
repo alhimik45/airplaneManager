@@ -2,7 +2,7 @@
 #include "addForm.h"
 #include "gameForm.h"
 
-namespace airplanedb {
+namespace airplaneManager {
 	using namespace System::IO;
 	using namespace System;
 	using namespace System::ComponentModel;

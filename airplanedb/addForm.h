@@ -8,7 +8,7 @@ using namespace System::Data;
 using namespace System::Drawing;
 
 
-namespace airplanedb {
+namespace airplaneManager {
 	//форма может быть 3х типов: добавление записи, редактирование, фильтрация
 	public enum class FormType : Int32 { Add, Edit, Filter };
 
