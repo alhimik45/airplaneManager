@@ -4,7 +4,7 @@
 	Version="9,00"
 	Name="airplaneManager"
 	ProjectGUID="{4E55766E-ADD0-4512-A753-E85F0A733A6A}"
-	RootNamespace="airplanedb"
+	RootNamespace="airplaneManager"
 	Keyword="ManagedCProj"
 	TargetFrameworkVersion="196613"
 	>
