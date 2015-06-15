@@ -1,4 +1,4 @@
-// airplanedb.cpp : main project file.
+// airplaneManager.cpp : main project file.
 
 #include "stdafx.h"
 #include "Form1.h"
