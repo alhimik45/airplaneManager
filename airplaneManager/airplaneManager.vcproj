@@ -251,11 +251,11 @@
 				>
 			</File>
 			<File
-				RelativePath=".\Form1.h"
+				RelativePath=".\MainForm.h"
 				FileType="3"
 				>
 				<File
-					RelativePath=".\Form1.resX"
+					RelativePath=".\MainForm.resX"
 					SubType="Designer"
 					>
 				</File>

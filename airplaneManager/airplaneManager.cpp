@@ -1,7 +1,7 @@
 // airplaneManager.cpp : main project file.
 
 #include "stdafx.h"
-#include "Form1.h"
+#include "MainForm.h"
 
 using namespace airplaneManager;
 
